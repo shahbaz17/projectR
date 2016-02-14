@@ -1,0 +1,68 @@
+*{
+	font-family: 'Lato', sans-serif;
+	margin: 0;
+	padding: 0;
+}
+.navbar-default{
+	background-color: #fff;
+}
+.navbar-header{
+	height: 65px;
+}
+.navbar-brand{
+	padding: 17px 17px;
+	line-height: 30px;
+	height: 65px;
+	font-size: 25px;
+	line-height: 30px;
+}
+.footer p{
+	text-align: center;
+	color: #fff;
+	padding-top: 5px;
+}
+.footer{
+	background-color: #000;
+
+}
+
+
+
+
+/* Custom classes */
+.repiro-story{
+	height: 500px;
+	margin-top: -20px;
+	background-color: #C27E26;
+	background-repeat: repeat;
+	position: relative;
+}
+.repiro-story .container .content{
+	margin: 0px auto;
+	width: 700px;
+	position: absolute;
+	top: 60px;
+	left: 300px;
+	color: #fff;
+	text-align: center;
+}
+.repiro-story .container .content>h1{
+	font-size: 78px;
+}
+.repiro-story .container .content>p{
+	font-size: 20px;
+}
+
+.repiro-workflow{
+	padding-top: 100px;
+	padding-bottom: 100px;
+	text-align: center;
+}
+.repiro-workflow .container .row p{
+	padding-top: 10px;
+}
+
+.repiro-booking{
+	height: 300px;
+	background-color: #C27E26;
+}
