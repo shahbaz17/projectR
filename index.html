@@ -13,6 +13,8 @@
     <!-- Custom & font -->
     <link rel="stylesheet" type="text/css" href="css/custom.css">
     <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
 
     
   </head>
@@ -23,11 +25,54 @@
         <div class="navbar-header">
           <a class="navbar-brand" href="#">Repiro</a>
         </div>
+        <div class="social-links">
+          <ul class="navbar-right">
+            <li><i class="fa fa-2x fa-facebook-square"></i></li>
+            <li><i class="fa fa-2x fa-twitter-square"></i></li>
+            <li><i class="fa fa-2x fa-google-plus-square"></i></li>
+            <li><i class="fa fa-2x fa-instagram"></i></li>
+            <li><i class="fa fa-2x fa-pinterest-square"></i></li>
+          </ul> 
+        </div>
       </div>
     </nav>
 
     <div class="repiro-story">
-      <div class="container">
+      <div class="container device-cont">
+        <div class="device mobile">
+          <div class="device-content">
+            <!--          
+            <form method="post" action="">
+              {% csrf_token %}
+              <table>
+              {{ modelform }}
+              </table>
+              {{name}}
+                {{ email }}
+              <input class="btn btn-lg btn-primary" type="submit" value="Submit Form"/>
+            </form>   
+            -->
+            <form class="form-horizontal">
+              <div class="form-group">
+                <label for="inputEmail3" class="col-sm-2 control-label">Email</label>
+                <div class="col-sm-10">
+                  <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="inputPassword3" class="col-sm-2 control-label">Password</label>
+                <div class="col-sm-10">
+                  <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="col-sm-offset-5 col-sm-10">
+                  <button type="submit" class="btn btn-lg btn-primary">Sign in</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
         <div class="content">
           <h1>Repiro Story</h1>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -35,13 +80,24 @@
           quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
           consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
           cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-          proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>      
         </div>
       </div>
     </div>
 
     <div class="repiro-workflow">
       <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <i class="fa fa-mobile fa-3x"></i>
+          </div>
+          <div class="col-md-4">
+            <i class="fa fa-wrench fa-3x"></i>
+          </div>
+          <div class="col-md-4">
+            <i class="fa fa-truck fa-3x"></i>
+          </div>
+        </div>
         <div class="row">
           <div class="col-md-4">
             <h2>Pick Up</h2>
@@ -74,13 +130,46 @@
       </div>
     </div>
 
-    <div class="repiro-booking">
-      //Phone image and booking form
+    <div class="repiro-features">
+      <h2>Features</h2>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3">
+            <h3>Data Protection</h3><br>
+            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          </div>
+          <div class="col-md-3">
+            <h3>2 Month Warranty</h3><br>
+            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          </div>
+          <div class="col-md-3">
+            <h3>Stand-by phone</h3><br>
+            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          </div>
+          <div class="col-md-3">
+            <h3>Hassle free pick and drop service</h3><br>
+            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="">
+      
     </div>
 
     <!-- Footer -->
     <footer class="footer">
       <div class="container">
+        <div class="social-bottom">
+          <ul>
+            <li><i class="fa fa-2x fa-facebook-square"></i></li>
+            <li><i class="fa fa-2x fa-twitter-square"></i></li>
+            <li><i class="fa fa-2x fa-google-plus-square"></i></li>
+            <li><i class="fa fa-2x fa-instagram"></i></li>
+            <li><i class="fa fa-2x fa-pinterest-square"></i></li>
+          </ul> 
+        </div>
         <p class="text-muted">© 2016–2016 Repiro</p>
       </div>
     </footer>
