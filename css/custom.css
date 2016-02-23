@@ -46,6 +46,34 @@
 .social-bottom{
 	float: right;
 }
+.device-cont{
+	position: relative;
+}
+.device-cont .mobile{
+	position: absolute;
+}
+.device{
+	top: 11px;
+	display: block;
+	width: 561px;
+	height: 489px;
+	background-image: url(../img/device-sprite.png);
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	background-size: 300%;
+}
+.device-content{
+	position: absolute;
+	top: 166px;
+	left: 52px;
+	width: 456px;
+	height: 325px;
+	background-color: #f7f7f7;
+}
+.device-content form{
+	padding: 20px;
+	padding-top: 100px;
+}
 
 
 
@@ -54,19 +82,16 @@
 .repiro-story{
 	height: 500px;
 	margin-top: -20px;
-	background-color: #996A2F;
+	background-color: #E67E22;
 	background-image: url("../img/crossword.png");
 	background-repeat: repeat;
 	position: relative;
 }
 .repiro-story .container .content{
-	margin: 0px auto;
-	width: 700px;
-	position: absolute;
-	top: 60px;
-	left: 300px;
+	margin-left: 50%;
 	color: #fff;
 	text-align: center;
+	padding-top: 100px;
 }
 .repiro-story .container .content>h1{
 	font-size: 78px;
@@ -89,8 +114,9 @@
 	border-top: 2px solid #996A2F;
 }
 .repiro-features{
+	padding-top: 10px;
 	height: 300px;
-	background-color: #996A2F;
+	background-color: #E67E22;
 	background-image: url("../img/crossword.png");
 	background-repeat: repeat;
 	color: #fff;
